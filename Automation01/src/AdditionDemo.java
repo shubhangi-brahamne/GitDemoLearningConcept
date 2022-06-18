@@ -24,11 +24,12 @@ public class AdditionDemo {
 		
 		
 		System.out.println("* Printing bottom to top  Programme");
-		for (int i = 1 ; i<=5; i--) {
+		for (int i = 1 ; i<=5; i++) {
 			System.out.print("*");
-			for(int j=i; j<=5; j--) {
+			for(int j=i; j<=5; j++) {
 				System.out.println();
 			}
 		}
+		System.out.println("This is the Subtraction function");
 }
 }
